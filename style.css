@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+    font-family: "Red Hat Display", serif;
+    border: 1px solid gray;
+}
+
+h1 {
+    margin: 0 auto;
+    font-weight: 800;
+    padding-top: 1em;
+}
+
+p {
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    max-width: 100%;
+}
+
+.pricing__plan {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-radius: 1em;
+    background-color: #F5F7FF;
+    padding-left: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+
+}
+
+.annual__plan {
+    padding: 0.75rem;
+    
+
+}
+
+.blurb {
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.change {
+    text-decoration: underline;
+    color: #0000AC;
+    font-weight: 700;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #766CF2;
+}
+
+button {
+    font-weight: 500;
+    font-size: medium;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 1em 5em 1em 5em; */
+    padding: 1em;
+    background-color: #3829E1;
+    color: #fff;
+    border-radius: 1em;
+}
+
+button:hover {
+    background-color: #766CF2;
+}
+
+.cancel {
+    color: #6C718E;
+    font-weight: 600;
+}
+
+.cancel:hover {
+    font-weight: 900;
+    color: black;
+}
