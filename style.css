@@ -92,3 +92,13 @@ button:hover {
     font-weight: 900;
     color: black;
 }
+
+@media (min-width: 1024px) {
+    .container {
+        margin: relative;
+        margin-top: 1rem;
+        margin-left: 25rem;
+        margin-right: 25rem;
+        margin-bottom: 20rem;
+    }
+}
